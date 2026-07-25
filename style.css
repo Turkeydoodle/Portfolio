@@ -17,6 +17,29 @@ body {
     padding: 20px;
 }
 
+body.dark {
+    background: #111;
+    color: #eee;
+}
+
+body.dark .header-container {
+    background-color: #1f1f1f;
+}
+
+body.dark .theheader,
+body.dark button,
+body.dark a {
+    color: #f5f5f5;
+}
+
+body.dark button {
+    background-color: #333;
+}
+
+body.dark h1 {
+    color: #7bbcff;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -65,7 +88,7 @@ button {
 }
 
 button:hover {
-    background-color: #357ab8;
+    background-color: #4a90e2;
 }
 
 h1 {
